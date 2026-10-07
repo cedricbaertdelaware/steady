@@ -1,0 +1,22 @@
+{
+  "name": "Steady",
+  "short_name": "Steady",
+  "description": "Know what your life costs, every month.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F5F7FA",
+  "theme_color": "#16A394",
+  "lang": "en",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Add cost", "url": "./index.html#/costs", "description": "Add a recurring cost" },
+    { "name": "Calendar", "url": "./index.html#/calendar" },
+    { "name": "Utilities", "url": "./index.html#/utilities" }
+  ]
+}
